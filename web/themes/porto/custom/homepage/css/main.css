@@ -1,0 +1,1213 @@
+/* Text Elements */
+
+h2.spotlight-heading {
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'Armata', sans-serif;
+  line-height: 2.5rem;
+}
+
+h3.heading-2 {
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-size: 1.53rem;
+}
+
+h5.heading-1 {
+  margin-bottom: 22px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.24rem;
+  line-height: 1.55rem;
+}
+
+p.paragraph.spotlight-text {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+p.paragraph.paragraph-1 {
+  color: #e2e2e4;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.26rem;
+}
+
+p.paragraph.block-para {
+  text-align: center;
+}
+
+.container-grid.full-height {
+  height: 100%;
+}
+
+.container-grid.heading {
+  background-color: #000;
+  background-image: url('http://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  background-attachment: scroll;
+  background-position: left top;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+  background-repeat: no-repeat;
+}
+
+.container-grid.full-height.heading {
+  background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  background-position: center center;
+  background-size: cover;
+}
+
+.container-grid.header-column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:    -moz-box;
+  display: -ms-flexbox;
+  display:         flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .4);
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+          align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+}
+
+.container-grid.button-container {
+  margin-top: 5%;
+}
+
+.container-grid.full-height.heading.row-type {
+  visibility: visible;
+  height: 640px;
+  background-color: transparent;
+  background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  background-attachment: scroll;
+  background-position: center top;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  opacity: 1;
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+
+  background-blend-mode: normal;
+}
+
+.container-grid.column-type.header-column {
+  display: grid;
+  float: left;
+  padding-top: 282px;
+  background-color: transparent;
+
+  grid-area: elementArea;
+}
+
+.container-grid.row-type {
+  visibility: hidden;
+}
+
+.container-grid#container-1 {
+  background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  background-attachment: scroll;
+  background-position: center top;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-blend-mode: normal;
+}
+
+.container-grid.container-1 {
+  padding-top: 88vw;
+  padding-right: 0;
+  padding-left: 0;
+  background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+}
+
+.container-grid.container-3 {
+  padding-top: 16px;
+  padding-bottom: 22px;
+  height: 100%;
+}
+
+.container-grid.container-4 {
+  background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  background-attachment: scroll;
+  background-position: center top;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-blend-mode: normal;
+}
+
+.container-grid.block-column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:    -moz-box;
+  display: -ms-flexbox;
+  display:         flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: start;
+  -ms-flex-align: center;
+
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+     -moz-box-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+          align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+          align-content: center;
+}
+
+div.responsive-picture.picture-1 {
+  width: 6em;
+}
+
+div.responsive-picture.picture-2-1 {
+  width: 6em;
+}
+
+div.responsive-picture.picture-3 {
+  width: 6em;
+}
+
+@supports (display: grid) {
+  /* Text Elements */
+
+  h2.spotlight-heading {
+    line-height: 36px;
+  }
+
+  h3.heading-2 {
+    font-family: 'Armata', cursive;
+  }
+
+  p.paragraph.paragraph-1 {
+    font-family: 'Roboto', cursive;
+  }
+
+  /* Interaction Elements */
+
+  a.link-button.btn {
+    margin-right: auto;
+    margin-left: auto;
+    width: 220px;
+    border-color: rgba(255, 255, 255, .5);
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto', cursive;
+  }
+
+  .container-grid#container-1 {
+    min-height: 800px;
+    height: 100vh;
+    background-image: url('../Product-images/Hero-Images/Toner-small-hero-blue-background.jpg');
+    background-attachment: scroll;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .container-grid.column-type.header-column {
+    top: auto;
+    padding-top: 60%;
+    padding-bottom: 0;
+    height: 640px;
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .container-grid#hero-image {
+    display: grid;
+    padding-top: 70vh;
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .container-grid.full-height.heading.row-type {
+    min-height: auto;
+    height: 640px;
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .container-grid#container-3-copy-2 {
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .container-grid.container-4 {
+    background-color: #101010;
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .container-grid.container-5 {
+    margin-top: 32px;
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+
+  .rule.rule-1 hr {
+    border-top-width: 3px;
+  }
+
+  .container-grid.container-1 {
+    background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  div.responsive-picture.picture-2-1 {
+    margin-top: 17px;
+    margin-bottom: 7px;
+    max-width: 209px;
+    max-height: none;
+    width: 6.46em;
+    height: auto;
+  }
+
+  div.responsive-picture.picture-2-1 > picture {
+    height: auto;
+  }
+
+  .container-grid#container-3-copy-1 {
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .container-grid.container-8 {
+    display: grid;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 12px;
+    padding-left: 0;
+  }
+
+  .container-grid#container-2 {
+    min-height: auto;
+    height: 640px;
+    background-image: url('../Product-images/images-for-web/foliage-difference.jpg');
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .container-grid#container-2-copy-1 {
+    min-height: auto;
+    background-image: url('../Product-images/images-for-web/small-persian-shield-leaf.jpg');
+    background-attachment: scroll;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .container-grid#container-3 {
+    background-image: url('../Product-images/images-for-web/CEO_s.jpg');
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  /* Text Elements */
+
+  p.paragraph.paragraph-1 {
+    margin-top: 14px;
+    margin-bottom: 26px;
+    padding-right: 1em;
+    padding-left: 1rem;
+    white-space: normal;
+    font-size: 1.2em;
+  }
+
+  .container-grid.full-height.heading.row-type {
+    visibility: visible;
+    height: 640px;
+    background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+    background-size: cover;
+    text-align: center;
+  }
+
+  .container-grid.column-type.header-column {
+    display: grid;
+    visibility: visible;
+    padding-top: 22rem;
+    background-color: transparent;
+  }
+
+  .container-grid.row-type {
+    visibility: visible;
+  }
+
+  .container-grid.container-3 {
+    padding: 2rem 1.2rem;
+  }
+
+  @supports (display: grid) {
+      /* Text Elements */
+
+    h3 span.heading-text-1 {
+      font-family: 'Armata', cursive;
+    }
+
+    p.paragraph span.paragraph-text-1 {
+      font-family: 'Roboto', cursive;
+    }
+
+    p.paragraph.spotlight-text {
+      margin-right: 18px;
+      margin-left: 18px;
+    }
+
+    /* Interaction Elements */
+
+    a.link-button.btn {
+      display: block;
+    }
+
+    .container-grid.full-height.heading.row-type {
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid#container-3-copy-2 {
+      bottom: auto;
+    }
+
+    .container-grid#container-3-copy-1 {
+      margin-bottom: 0;
+      padding-bottom: 60px;
+
+      grid-template-columns: auto;
+      grid-template-rows: repeat(4 , auto);
+    }
+
+    .container-grid.container-8 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display:    -moz-box;
+      display: -ms-flexbox;
+      display:         flex;
+
+      grid-template-areas: '. m .';
+      grid-template-columns: 1fr auto 1fr;
+      grid-template-rows: auto;
+      grid-area: auto / auto / auto / auto;
+    }
+  }
+}
+
+@media screen and (min-width: 540px) {
+  /* Text Elements */
+
+  h2.spotlight-heading {
+    margin-top: 74px;
+    line-height: 3rem;
+
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 1auto;
+       -moz-box-flex: 0;
+        -ms-flex: 0 1 1auto;
+            flex: 0 1 1auto;
+  }
+
+  h5.heading-1 {
+    font-size: 1.52rem;
+    line-height: 1.79rem;
+  }
+
+  p.paragraph.spotlight-text {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1;
+       -moz-box-flex: 0;
+        -ms-flex: 0 1;
+            flex: 0 1;
+  }
+
+  p.paragraph.paragraph-1 {
+    font-size: 1.5em;
+    line-height: 1.7rem;
+  }
+
+  /* Layout Elements */
+
+  body.body-1 {
+    position: relative;
+  }
+
+  .container-grid.full-height.heading.row-type {
+    background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  }
+
+  .container-grid.row-type {
+    visibility: hidden;
+    float: none;
+    clear: none;
+  }
+
+  .container-grid.column-type.header-column {
+    position: relative;
+    display: grid;
+    -ms-flex-pack: distribute;
+    -ms-flex-align: center;
+    margin-bottom: 0;
+    padding-top: 22rem;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    min-width: 0;
+    min-height: auto;
+    height: 100%;
+    -webkit-column-count: auto;
+       -moz-column-count: auto;
+            column-count: auto;
+
+    -webkit-justify-content: space-around;
+            justify-content: space-around;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+       -moz-box-flex: 0;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+    grid-area: auto/ auto / auto / auto;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+            align-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+            align-items: center;
+  }
+
+  .container-grid.container-3 {
+    padding: 3rem 1.5rem;
+  }
+
+  @supports (display: grid) {
+      /* Text Elements */
+
+    h2.spotlight-heading {
+      margin-bottom: 4px;
+      padding-bottom: 0;
+    }
+
+    .container-grid.full-height.heading.row-type {
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid#hero-image {
+      background-position: center 33%;
+      background-size: cover;
+    }
+
+    .container-grid.column-type.header-column {
+      bottom: auto;
+      display: block;
+      padding-top: 46.2%;
+      padding-bottom: 24px;
+    }
+
+    .container-grid.button-container.container-fluid {
+      position: static;
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .container-grid#container-3-copy-2 {
+      position: relative;
+      padding-top: 18.7rem;
+      padding-bottom: 60px;
+      padding-left: 16px;
+
+      grid-template-columns: auto;
+      grid-template-rows: repeat(6 , auto);
+      grid-area: auto/ auto /auto/ auto;
+    }
+
+    .container-grid#container-3-copy-1 {
+      padding-top: 18.7rem;
+    }
+
+    .container-grid#container-1 {
+      background-position: center 10%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* Text Elements */
+
+  h2.spotlight-heading {
+    display: block;
+    float: none;
+    margin-right: 0;
+    margin-bottom: 11px;
+    font-size: 4.66vw;
+    line-height: 5.56vw;
+  }
+
+  h3.heading-2 {
+    font-weight: 700;
+    font-size: 2.4rem;
+  }
+
+  h5.heading-1 {
+    margin-top: 20px;
+    margin-bottom: 31px;
+    font-size: 1.85rem;
+    line-height: 2.15rem;
+  }
+
+  p.paragraph.paragraph-1 {
+    line-height: 1.7rem;
+  }
+
+  .container-grid.full-height.heading.row-type {
+    background-position: left top;
+  }
+
+  .container-grid.column-type.header-column {
+    top: 15.3%;
+    right: 10%;
+    display: block;
+    float: left;
+    margin-right: 0;
+    margin-left: 66%;
+    padding: 4rem .08rem 0 0;
+    width: 43%;
+    height: 33%;
+
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+            align-content: center;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+  }
+
+  .container-grid.container-2 {
+    position: static;
+    display: block;
+    float: none;
+    width: 100%;
+  }
+
+  .container-grid.row-type {
+    visibility: visible;
+  }
+
+  .container-grid.container-4 {
+    height: 400px;
+    background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+    background-position: 13.1% top;
+    background-size: cover;
+  }
+
+  .container-grid.container-3 {
+    margin-top: 19px;
+    padding-top: 3rem;
+    min-height: 0;
+    width: 50%;
+    height: auto;
+    background-color: transparent;
+  }
+
+  .container-grid.container-1 {
+    padding-top: 0;
+  }
+
+  @supports (display: grid) {
+      /* Text Elements */
+
+    h3.heading-2 {
+      font-weight: 500;
+      font-size: 29px;
+      line-height: 5.56vw;
+    }
+
+    h5 span.heading-text-2 {
+      font-size: 26px;
+    }
+
+    p.paragraph.spotlight-text {
+      font-size: 18px;
+    }
+
+    p.paragraph.paragraph-1 {
+      font-size: 18px;
+    }
+
+    .container-grid.full-height.heading.row-type {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display:    -moz-box;
+      display: -ms-flexbox;
+      display:         flex;
+      min-height: auto;
+      max-height: none;
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid#hero-image {
+      padding-top: 10vh;
+      padding-right: 1rem;
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid#container-1 {
+      min-height: 900px;
+      height: 100vh;
+      background-image: url('../Product-images/Hero-Images/Toner-medium-hero-blue-background.jpg');
+      background-attachment: scroll;
+      background-position: center center;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid.column-type.header-column {
+      top: 35%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display:    -moz-box;
+      display: -ms-flexbox;
+      display:         flex;
+      margin-right: 20px;
+      margin-left: 65.2%;
+      padding-right: .15rem;
+    }
+
+    .container-grid#container-2 {
+      height: 500px;
+      background-image: url('../Product-images/images-for-web/foliage-difference.jpg');
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid#container-2-copy-1 {
+      height: 500px;
+      background-image: url('../Product-images/images-for-web/large-square-persian-shield.jpg');
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid#container-3-copy-2 {
+      padding-top: 4rem;
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid.container-1 {
+      min-height: 278px;
+      height: 100%;
+    }
+
+    .container-grid.container-4 {
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid.container-5 {
+      margin: 20px 2em;
+    }
+
+    .container-grid.button-container.container-fluid {
+      margin-bottom: 12px;
+    }
+
+    .container-grid#container-3-copy-1 {
+      padding-top: 4rem;
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid.container-3 {
+      margin-top: 0;
+      padding-top: 3.06vh;
+      padding-bottom: 2.65rem;
+    }
+
+    .container-grid.container-8 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display:    -moz-box;
+      display: -ms-flexbox;
+      display:         flex;
+      -ms-flex-align: center;
+
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+         -moz-box-align: center;
+              align-items: center;
+      -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+              align-content: center;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* Text Elements */
+
+  h2.spotlight-heading {
+    font-size: 4.38vw;
+    line-height: 5.43vw;
+  }
+
+  h5.heading-1 {
+    white-space: normal;
+    font-weight: 700;
+    font-size: 2.07rem;
+    line-height: 2.52rem;
+  }
+
+  p.paragraph.spotlight-text {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .container-grid.column-type.header-column {
+    margin-left: 62.7%;
+  }
+
+  .container-grid.full-height.heading.row-type {
+    background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  }
+
+  .container-grid.container-3 {
+    margin-top: 40px;
+    margin-right: 0;
+    padding-right: 1.5rem;
+    width: 55%;
+  }
+
+  .container-grid.container-1 {
+    width: 45%;
+    background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  }
+
+  @supports (display: grid) {
+      /* Text Elements */
+
+    h5.heading-1 {
+      font-size: 29px;
+    }
+
+    .container-grid.full-height.heading.row-type {
+      height: 100vh;
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid.column-type.header-column {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display:    -moz-box;
+      display: -ms-flexbox;
+      display:         flex;
+    }
+
+    .container-grid.container-4 {
+      background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+    }
+
+    .container-grid.container-1 {
+      background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+      background-attachment: scroll;
+      background-position: center top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: auto 127%;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid.container-3 {
+      margin-top: 0;
+      margin-right: auto;
+      margin-left: auto;
+      padding-top: 5vh;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* Text Elements */
+
+  h3.heading-2 {
+    padding-right: 0;
+    line-height: 1.3;
+  }
+
+  h5.heading-1 {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-size: 1.64rem;
+    line-height: 2.07rem;
+  }
+
+  p.paragraph.paragraph-1 {
+    padding-right: 5em;
+    padding-left: 5rem;
+    line-height: 2.2rem;
+  }
+
+  .container-grid.full-height.heading.row-type {
+    position: static;
+    height: 800px;
+    background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+    background-attachment: scroll;
+    background-position: 0vmax top;
+    background-size: cover;
+  }
+
+  .container-grid.column-type.header-column {
+    top: 24.1%;
+  }
+
+  .container-grid.container-3 {
+    width: 60%;
+  }
+
+  .container-grid.container-1 {
+    width: 40%;
+  }
+
+  @supports (display: grid) {
+      /* Text Elements */
+
+    h2.spotlight-heading {
+      font-size: 55px;
+      line-height: 65px;
+    }
+
+    h3 span.heading-text-1 {
+      font-weight: 500;
+      font-family: 'Armata', cursive;
+    }
+
+    p.paragraph.spotlight-text {
+      font-size: 24px;
+    }
+
+    .container-grid.container-3 {
+      margin-top: 50px;
+      margin-right: auto;
+      margin-left: 13%;
+      padding-right: 0;
+      padding-bottom: 0;
+      padding-left: 0;
+      width: 43.2%;
+    }
+
+    .container-grid.full-height.heading.row-type {
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid#container-1 {
+      min-height: 900px;
+      height: 100vh;
+      background-image: url('../Product-images/Hero-Images/Toner-large-hero-blue-background.jpg');
+      background-attachment: scroll;
+      background-position: center center;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid#hero-image {
+      padding-top: 30vh;
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid.column-type.header-column {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display:    -moz-box;
+      display: -ms-flexbox;
+      display:         flex;
+      padding-top: 35vh;
+      width: 43%;
+      height: 33%;
+    }
+
+    .container-grid#container-2 {
+      min-height: auto;
+      background-position: center center;
+    }
+
+    .container-grid#container-2-copy-1 {
+      min-height: auto;
+      background-position: center center;
+    }
+
+    .container-grid.container-4 {
+      height: 437px;
+    }
+
+    .container-grid.container-6 {
+      min-height: 14px;
+    }
+
+    .container-grid.container-7 {
+      min-height: 35px;
+    }
+
+    .container-grid.row-type-1 {
+      max-width: 1200px;
+    }
+
+    .container-grid#container-3 {
+      background-image: url('../Product-images/images-for-web/CEO_b.jpg');
+    }
+
+    .container-grid#container-3-copy-2 {
+      padding-top: 2rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .container-grid.full-height.heading.row-type {
+    background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  }
+
+  .container-grid.container-3 {
+    padding-top: 3.75rem;
+  }
+
+  @supports (display: grid) {
+      .container-grid.full-height.heading.row-type {
+      min-height: 900px;
+      height: 100vh;
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid#hero-image {
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid.container-1 {
+      background-size: auto 159%;
+    }
+
+    .container-grid.row-type-1 {
+      max-width: 1200px;
+    }
+  }
+}

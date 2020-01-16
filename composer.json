@@ -1,0 +1,123 @@
+{
+    "name": "drupal-composer/drupal-project",
+    "description": "Project template for Drupal 8 projects with composer",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "",
+            "role": ""
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.8",
+        "composer/installers": "^1.2",
+        "cweagans/composer-patches": "^1.6.5",
+        "drupal-composer/drupal-scaffold": "^2.5",
+        "drupal/admin_toolbar": "^2.0",
+        "drupal/block_class": "^1.0",
+        "drupal/block_field": "^1.0@alpha",
+        "drupal/commerce": "^2.14",
+        "drupal/commerce_authnet": "^1.2",
+        "drupal/commerce_canadapost": "^1.0@RC",
+        "drupal/commerce_coupon_conditions": "^1.0",
+        "drupal/commerce_shipping": "^2.0@beta",
+        "drupal/commerce_stripe": "^1.0@RC",
+        "drupal/commerce_variation_cart_form": "^1.1",
+        "drupal/console": "^1.0.2",
+        "drupal/core": "^8.7.0",
+        "drupal/current_page_crumb": "^1.2",
+        "drupal/entity_reference_revisions": "^1.7",
+        "drupal/field_collection": "^1.0@alpha",
+        "drupal/fivestar": "1.x-dev",
+        "drupal/flippy": "^1.0@beta",
+        "drupal/google_analytics": "^3.0",
+        "drupal/hubspot": "^1.0@alpha",
+        "drupal/imce": "^1.7",
+        "drupal/inline_entity_form": "^1.0@RC",
+        "drupal/libraries": "^3.0@alpha",
+        "drupal/metatag": "^1.10",
+        "drupal/page_manager": "^4.0@beta",
+        "drupal/panels": "^4.4",
+        "drupal/pathauto": "^1.5",
+        "drupal/php": "^1.0",
+        "drupal/physical": "^1.0",
+        "drupal/product_taxonomy_filter": "2.x-dev",
+        "drupal/profile": "^1.0",
+        "drupal/search_api": "^1.15",
+        "drupal/simplenews": "^1.0@beta",
+        "drupal/state_machine": "^1.0@RC",
+        "drupal/stripe": "^1.0@beta",
+        "drupal/tb_megamenu": "1.x-dev",
+        "drupal/token": "^1.5",
+        "drupal/tvi": "^1.0@beta",
+        "drupal/twig_tweak": "^2.4",
+        "drupal/twig_vardumper": "^1.2",
+        "drupal/viewfield": "^3.0@beta",
+        "drupal/we_megamenu": "^1.5",
+        "drupal/webform": "^5.4",
+        "drupal/zoho_crm_integration": "^1.0@alpha",
+        "drush/drush": "^9.0.0",
+        "vlucas/phpdotenv": "^2.4",
+        "webflo/drupal-finder": "^1.0.0",
+        "webmozart/path-util": "^2.3",
+        "zaporylie/composer-drupal-optimizations": "^1.0"
+    },
+    "require-dev": {
+        "webflo/drupal-core-require-dev": "^8.7.0"
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "classmap": [
+            "scripts/composer/ScriptHandler.php"
+        ],
+        "files": ["load.environment.php"]
+    },
+    "scripts": {
+        "pre-install-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+        ],
+        "pre-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+        ],
+        "post-install-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "post-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ]
+    },
+    "extra": {
+        "composer-exit-on-patch-failure": true,
+        "patchLevel": {
+            "drupal/core": "-p2"
+        },
+        "installer-paths": {
+            "web/core": ["type:drupal-core"],
+            "web/libraries/{$name}": ["type:drupal-library"],
+            "web/modules/contrib/{$name}": ["type:drupal-module"],
+            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "web/themes/contrib/{$name}": ["type:drupal-theme"],
+            "drush/Commands/contrib/{$name}": ["type:drupal-drush"]
+        },
+        "drupal-scaffold": {
+            "initial": {
+                ".editorconfig": "../.editorconfig",
+                ".gitattributes": "../.gitattributes"
+            }
+        }
+    }
+}

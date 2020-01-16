@@ -1,0 +1,24 @@
+{%
+set classes = [
+'block',
+'block-' ~ configuration.provider|clean_class,
+'block-' ~ plugin_id|clean_class,
+]
+%}
+{% set style = content.field_style[0]['#markup'] %}
+
+<div{{ attributes.addClass(classes) }}>
+    {{ title_prefix }}
+    <div class="container mb-xlg">
+        <h2 class="slider-title">
+            <span class="inline-title">BROWSE OUR CATEGORIES</span>
+            <span class="line"></span>
+        </h2>
+        {% if content.field_our_categories %}
+        <div class="owl-carousel owl-theme" data-plugin-options='{"items":4, "loop": false, "nav": true, "dots": false, "margin": 10}'>
+            {{ content.field_our_categories }}
+        </div>
+        {% endif %}
+    </div>
+    {{ title_suffix }}
+</div>

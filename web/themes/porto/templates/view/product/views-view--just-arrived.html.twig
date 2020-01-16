@@ -1,0 +1,36 @@
+{%
+set classes = [
+dom_id ? 'js-view-dom-id-' ~ dom_id,
+]
+%}
+<div{{ attributes.addClass(classes) }}>
+    {{ title_prefix }}
+    {{ title }}
+    {#{{ title_suffix }}#}
+    <div class="container mb-xlg">
+        {% if header %}
+            <h2 class="slider-title">
+                <span class="inline-title">{{ header }}</span>
+            </h2>
+        {% endif %}
+        <ul class="products-grid columns6">
+            {{ rows }}
+        </ul>
+    </div>
+    {{ exposed }}
+    {{ attachment_before }}
+
+    {{ empty }}
+    {{ pager }}
+
+    {{ attachment_after }}
+    {{ more }}
+
+    {% if footer %}
+        <footer>
+            {{ footer }}
+        </footer>
+    {% endif %}
+
+    {{ feed_icons }}
+</div>

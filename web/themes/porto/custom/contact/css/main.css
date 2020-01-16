@@ -1,0 +1,473 @@
+/* Text Elements */
+
+h1 span.heading-text-1 {
+  font-size: 14px;
+  font-family: 'Roboto Mono', cursive;
+}
+
+h1 span.heading-text-2 {
+  color: #fff;
+}
+
+h1.heading-1 {
+  margin-bottom: 20px;
+}
+
+h1.heading-1-section-2 {
+  margin-bottom: 20px;
+}
+
+h2 span.heading-text-3 {
+  color: #fff;
+  font-size: 40px;
+  font-family: 'Roboto', cursive;
+}
+
+h2.heading-2 {
+  margin-bottom: .5rem;
+  line-height: 48px;
+}
+
+p.paragraph span.paragraph-text-1 {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto', cursive;
+}
+
+p.paragraph.paragraph-1 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  max-width: 480px;
+  line-height: 30px;
+}
+
+/* Interaction Elements */
+
+a.link-button.btn {
+  position: static;
+  display: block;
+  margin: 5px auto;
+  padding-right: 12px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  width: 166px;
+  height: 39px;
+  border-color: #fff;
+  border-radius: 15px;
+  background-color: #f2a900;
+  color: #fff;
+}
+
+a.link-button span.button-link-text-1 {
+  font-weight: 500;
+  font-size: 19px;
+  font-family: 'Roboto', cursive;
+}
+
+.container-grid.container-1 {
+  position: relative;
+  top: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  min-height: auto;
+  width: 100%;
+  height: 900px;
+  background-color: #512179;
+}
+
+.container-grid.container-2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 2%;
+  margin: 0 auto;
+  min-height: 3px;
+  width: 94%;
+  height: auto;
+}
+
+.container-grid.container-3 {
+  position: relative;
+  min-height: auto;
+  height: 400px;
+  background-image: url('../images/Contact-us-m.jpg');
+  background-attachment: scroll;
+  background-position: center top;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-blend-mode: normal;
+}
+
+.container-grid.container-4 {
+  position: relative;
+  overflow: visible;
+  min-height: auto;
+  height: 400px;
+}
+
+.container-grid.container-5 {
+  position: static;
+  right: 35px;
+  display: block;
+  clear: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-grid#container-1 {
+  margin-top: 55px;
+  height: auto;
+}
+
+.container-grid.container-6 {
+  position: relative;
+}
+
+@supports (display: grid) {
+  /* Text Elements */
+
+  h1 span.heading-text-1 {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  h1 span.heading-text-1.section-2 {
+    color: #262829;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  h1.heading-1-section-2 {
+    padding-right: 9px;
+    padding-left: 10px;
+  }
+
+  h2 span.heading-text-3 {
+    color: #fff;
+  }
+
+  h2 span.heading-text-3.section-2 {
+    color: #3a3d3e;
+  }
+
+  h2.heading-2.section-2 {
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 312px;
+  }
+
+  h3 span.heading-text-4 {
+    font-size: 28px;
+  }
+
+  h3.heading-3 {
+    font-weight: 600;
+    font-family: 'Roboto', cursive;
+    line-height: 36px;
+  }
+
+  p.paragraph span.paragraph-text-2 {
+    font-size: 20px;
+  }
+
+  p.paragraph.paragraph-2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: 'Roboto', cursive;
+    line-height: 30px;
+  }
+
+  p.paragraph span.paragraph-text-3 {
+    font-size: 20px;
+  }
+
+  p.paragraph.paragraph-3 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    line-height: 30px;
+  }
+
+  .container-grid.container-7 {
+    display: grid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2 , auto);
+  }
+
+  .container-grid.container-8 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .container-grid.container-9 {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  /* Text Elements */
+
+  h1 strike.heading-text-5 {
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 17px;
+  }
+
+  /* Interaction Elements */
+
+  a.link-button.btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 156px;
+  }
+
+  .container-grid.container-5 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display:         flex;
+  }
+
+  .container-grid.container-4 {
+    height: 316px;
+  }
+
+  .container-grid.container-3 {
+    height: 333px;
+  }
+
+  .container-grid.container-1 {
+    height: 800px;
+  }
+
+  @supports (display: grid) {
+      /* Text Elements */
+
+    p.paragraph.paragraph-2 {
+      max-width: 570px;
+    }
+
+    p.paragraph.paragraph-3.section-3 {
+      max-width: 570px;
+    }
+  }
+}
+
+@media screen and (min-width: 540px) {
+  /* Text Elements */
+
+  h2.heading-2 {
+    max-width: 480px;
+    font-size: 30px;
+  }
+
+  h2 span.heading-text-3 {
+    font-weight: 500;
+  }
+
+  .container-grid.container-3 {
+    height: 408px;
+    background-position: center 20.4%;
+    background-size: cover;
+  }
+
+  .container-grid.container-4 {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    max-width: 570px;
+  }
+
+  .container-grid.container-1 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 800px;
+    background-color: #512179;
+  }
+
+  .container-grid.container-5 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display:         flex;
+    width: 416px;
+
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+
+  .container-grid.container-2 {
+    margin-top: 60px;
+  }
+
+  .container-grid#container-1 {
+    height: 100px;
+  }
+
+  .container-grid.container-6 {
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* Interaction Elements */
+
+  a.link-button.btn {
+    border-width: 0;
+  }
+
+  a.link-button.btn:hover {
+    background-color: #fff;
+    color: #f2a900;
+  }
+
+  .container-grid.container-1 {
+    display: block;
+    width: 100%;
+    height: 777px;
+
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 'l r';
+  }
+
+  .container-grid.container-2 {
+    display: grid;
+    width: 100%;
+    height: 625.7%;
+
+    grid-area: elementArea;
+    grid-template-columns: 1.00fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 'l r';
+    grid-column-gap: 5px;
+  }
+
+  .container-grid.container-3 {
+    min-width: 31px;
+    height: 100%;
+    background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+    background-position: center center;
+    background-size: cover;
+
+    grid-area: r;
+    justify-self: auto;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0;
+       -moz-box-flex: 0;
+        -ms-flex: 0;
+            flex: 0;
+  }
+
+  .container-grid.container-4 {
+    grid-area: l;
+  }
+
+  .container-grid#container-2 {
+    margin-right: 0;
+    padding: 180px 0 80px 10px;
+    min-width: 375auto;
+    height: 777px;
+  }
+
+  .container-grid#container-3 {
+    min-width: 360px;
+    width: auto;
+    height: 777px;
+  }
+
+  .container-grid#container-1 {
+    left: 1%;
+    margin-top: 0;
+    height: 777px;
+  }
+
+  @supports (display: grid) {
+      .container-grid.container-7 {
+      padding-top: 50px;
+      padding-bottom: 50px;
+
+      grid-template-columns: repeat(2 , 1fr);
+      grid-template-rows: auto;
+      grid-template-areas: 'll rr';
+    }
+
+    .container-grid.container-8 {
+      margin-right: auto;
+      margin-left: auto;
+
+      grid-area: ll;
+    }
+
+    .container-grid.container-10 {
+      padding-right: 20px;
+
+      grid-area: rr;
+    }
+
+    .container-grid.container-3 {
+      background-image: url('../images/Contact-us-l.jpg');
+      background-position: 42% top;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container-grid.container-4 {
+    position: relative;
+    padding-right: 5px;
+  }
+
+  .container-grid#container-1 {
+    left: 0;
+    height: 777px;
+  }
+
+  .container-grid#container-2 {
+    margin-right: auto;
+  }
+
+  @supports (display: grid) {
+      .container-grid.container-4 {
+      padding-left: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  @supports (display: grid) {
+      /* Text Elements */
+
+    h2.heading-2 {
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    h3.heading-3 {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+
+    .container-grid.container-11 {
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .container-grid.container-8 {
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .container-grid.container-4 {
+      padding-left: 0;
+    }
+  }
+}

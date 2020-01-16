@@ -1,0 +1,28 @@
+{%
+set classes = [
+'block',
+'block-' ~ configuration.provider|clean_class,
+'block-' ~ plugin_id|clean_class,
+]
+%}
+{% set style = content.field_style[0]['#markup'] %}
+
+<div{{ attributes.addClass(classes) }}>
+    {{ title_prefix }}
+    <div class="container mb-xlg">
+        <div class="row">
+            {% if content.field_block_first %}
+            <div class="col-sm-6">
+                {{ content.field_block_first }}
+            </div>
+            {% endif %}
+            {% if content.field_block_second %}
+            <div class="col-sm-6">
+                {{ content.field_block_second }}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+    {{ title_suffix }}
+</div>

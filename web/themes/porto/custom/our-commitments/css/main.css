@@ -1,0 +1,958 @@
+/* Text Elements */
+
+h2.spotlight-heading {
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'Armata', sans-serif;
+  line-height: 2.5rem;
+}
+
+p.paragraph.spotlight-text {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-grid.full-height {
+  height: 100%;
+}
+
+.container-grid.heading {
+  background-color: #000;
+  background-image: url('http://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  background-attachment: scroll;
+  background-position: left top;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+  background-repeat: no-repeat;
+}
+
+.container-grid.full-height.heading {
+  background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  background-position: center center;
+  background-size: cover;
+}
+
+.container-grid.full-height.heading.row-type {
+  visibility: visible;
+  height: 640px;
+  background-color: transparent;
+  background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  background-attachment: scroll;
+  background-position: center top;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  opacity: 1;
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+
+  background-blend-mode: normal;
+}
+
+.container-grid.row-type {
+  visibility: hidden;
+}
+
+.container-grid.header-column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:    -moz-box;
+  display: -ms-flexbox;
+  display:         flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .4);
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+          align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+}
+
+.container-grid.column-type.header-column {
+  display: grid;
+  float: left;
+  padding-top: 282px;
+  background-color: transparent;
+
+  grid-area: elementArea;
+}
+
+.container-grid.button-container {
+  margin-top: 5%;
+}
+
+@supports (display: grid) {
+  /* Text Elements */
+
+  h2 span.heading-text-1 {
+    color: #fff;
+    font-size: 23px;
+    font-family: 'Armata', cursive;
+  }
+
+  h2#heading-1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 228px;
+    height: 44px;
+    text-align: center;
+    white-space: normal;
+    font-size: 1.72em;
+    font-family: 'Armata', cursive;
+
+    grid-area: m;
+    justify-self: center;
+  }
+
+  h2.heading-1 {
+    white-space: normal;
+  }
+
+  h2.spotlight-heading {
+    line-height: 36px;
+  }
+
+  p.paragraph span.paragraph-text-1 {
+    font-weight: 600;
+  }
+
+  p.paragraph.paragraph-1 {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 26px;
+    padding-right: 20px;
+    padding-left: 20px;
+    max-width: none;
+    width: auto;
+    font-family: 'Roboto', cursive;
+  }
+
+  p.paragraph#paragraph-1 {
+    width: auto;
+  }
+
+  ol.order-list.ordered-list-1 {
+    padding-top: 7px;
+    list-style-position: outside;
+    list-style-type: decimal;
+  }
+
+  /* Interaction Elements */
+
+  a.link-button.btn {
+    margin-right: auto;
+    margin-left: auto;
+    width: 220px;
+    border-color: rgba(255, 255, 255, .5);
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto', cursive;
+  }
+
+  /* Layout Elements */
+
+  body.body-1 {
+    width: 100vw;
+  }
+
+  .container-grid.container-1 {
+    height: auto;
+    background-image: url('../socialicons/small-persian-shield-leaf.jpg');
+    background-attachment: scroll;
+    background-position: center top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .container-grid#container-1 {
+    height: 400px;
+    background-position: center center;
+  }
+
+  .container-grid#container-2 {
+    display: grid;
+    width: 100vw;
+    height: 100%;
+
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: 3fr 1fr .5fr;
+    grid-template-areas: '. . .' '. m .' '. . .';
+  }
+
+  .container-grid.container-2 {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  li.list-item.list-item-1 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-family: 'Roboto', cursive;
+    line-height: 22px;
+  }
+
+  li.list-item.list-item-2 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-family: 'Roboto', cursive;
+  }
+
+  li.list-item.list-item-3 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-family: 'Roboto', cursive;
+  }
+
+  li.list-item.list-item-4 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-family: 'Roboto', cursive;
+  }
+
+  li.list-item.list-item-5 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-family: 'Roboto', cursive;
+  }
+
+  li.list-item.list-item-6 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-family: 'Roboto', cursive;
+  }
+
+  li.list-item.list-item-7 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-family: 'Roboto', cursive;
+  }
+
+  .container-grid.container-3 {
+    display: grid;
+    margin-top: 22px;
+
+    grid-template-areas: 't' 'm' 'b';
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3 , 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 10px;
+  }
+
+  div.responsive-picture.picture-1 {
+    max-width: none;
+
+    grid-area: t;
+  }
+
+  div.responsive-picture.picture-2 {
+    max-width: none;
+
+    grid-area: m;
+  }
+
+  div.responsive-picture.picture-3 {
+    max-width: none;
+
+    grid-area: b;
+  }
+
+  div.responsive-picture.picture-1 > picture > img {
+    -o-object-position: 50% center;
+       object-position: 50% center;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  .container-grid#container-difference {
+    min-height: auto;
+    height: 450px;
+    background-image: url('../Product-images/images-for-web/foliage-difference.jpg');
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .container-grid#container-3-copy-1 {
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .container-grid.full-height.heading.row-type {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: auto;
+    height: 400px;
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .container-grid.column-type.header-column {
+    top: auto;
+    padding: 32.9% 20px 0;
+    height: 450px;
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .container-grid.container-2-1 {
+    margin-bottom: 0;
+  }
+
+  .container-grid.container-4 {
+    width: 100vw;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .container-grid.full-height.heading.row-type {
+    visibility: visible;
+    height: 640px;
+    background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+    background-size: cover;
+    text-align: center;
+  }
+
+  .container-grid.row-type {
+    visibility: visible;
+  }
+
+  .container-grid.column-type.header-column {
+    display: grid;
+    visibility: visible;
+    padding-top: 22rem;
+    background-color: transparent;
+  }
+
+  @supports (display: grid) {
+      /* Text Elements */
+
+    h2.heading-1 {
+      font-size: 27px;
+    }
+
+    h2#heading-1 {
+      width: 263px;
+      font-size: 33px;
+    }
+
+    h2 span.heading-text-1 {
+      font-size: 26px;
+    }
+
+    p.paragraph span.paragraph-text-1 {
+      font-weight: 600;
+    }
+
+    p.paragraph.spotlight-text {
+      margin-right: 18px;
+      margin-left: 18px;
+    }
+
+    p.paragraph#paragraph-1 {
+      width: auto;
+    }
+
+    ol.order-list.ordered-list-1 {
+      padding-right: 34px;
+      padding-bottom: 4px;
+      padding-left: 34px;
+    }
+
+    /* Interaction Elements */
+
+    a.link-button.btn {
+      display: block;
+    }
+
+    .container-grid#container-3-copy-1 {
+      margin-bottom: 0;
+      padding-bottom: 60px;
+
+      grid-template-columns: auto;
+      grid-template-rows: repeat(4 , auto);
+    }
+
+    .container-grid.full-height.heading.row-type {
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid.column-type.header-column {
+      padding-top: 30%;
+    }
+
+    li.list-item.list-item-1 {
+      margin-bottom: 8px;
+      line-height: 25px;
+    }
+
+    li.list-item.list-item-2 {
+      margin-bottom: 8px;
+      line-height: 25px;
+    }
+
+    li.list-item.list-item-3 {
+      margin-bottom: 8px;
+      line-height: 25px;
+    }
+
+    li.list-item.list-item-4 {
+      margin-bottom: 8px;
+      line-height: 25px;
+    }
+
+    li.list-item.list-item-5 {
+      margin-bottom: 8px;
+      line-height: 25px;
+    }
+
+    li.list-item.list-item-6 {
+      margin-bottom: 8px;
+      line-height: 25px;
+    }
+
+    li.list-item.list-item-7 {
+      margin-bottom: 8px;
+      line-height: 25px;
+    }
+  }
+}
+
+@media screen and (min-width: 540px) {
+  /* Text Elements */
+
+  h2.spotlight-heading {
+    margin-top: 74px;
+    line-height: 3rem;
+
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 1auto;
+       -moz-box-flex: 0;
+        -ms-flex: 0 1 1auto;
+            flex: 0 1 1auto;
+  }
+
+  p.paragraph.spotlight-text {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1;
+       -moz-box-flex: 0;
+        -ms-flex: 0 1;
+            flex: 0 1;
+  }
+
+  .container-grid.full-height.heading.row-type {
+    background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  }
+
+  .container-grid.row-type {
+    visibility: hidden;
+    float: none;
+    clear: none;
+  }
+
+  .container-grid.column-type.header-column {
+    position: relative;
+    display: grid;
+    -ms-flex-pack: distribute;
+    -ms-flex-align: center;
+    margin-bottom: 0;
+    padding-top: 22rem;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    min-width: 0;
+    min-height: auto;
+    height: 100%;
+    -webkit-column-count: auto;
+       -moz-column-count: auto;
+            column-count: auto;
+
+    -webkit-justify-content: space-around;
+            justify-content: space-around;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+       -moz-box-flex: 0;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+    grid-area: auto/ auto / auto / auto;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+            align-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+            align-items: center;
+  }
+
+  @supports (display: grid) {
+      /* Text Elements */
+
+    h2.spotlight-heading {
+      margin-bottom: 4px;
+      padding-bottom: 0;
+    }
+
+    h2#heading-1 {
+      width: 320px;
+      font-size: 33px;
+    }
+
+    h2 span.heading-text-1 {
+      font-size: 30px;
+    }
+
+    div.responsive-picture.picture-1 > picture > img {
+      -o-object-position: center center;
+         object-position: center center;
+    }
+
+    div.responsive-picture.picture-2 > picture > img {
+      -o-object-fit: cover;
+         object-fit: cover;
+    }
+
+    div.responsive-picture.picture-3 > picture > img {
+      -o-object-fit: cover;
+         object-fit: cover;
+    }
+
+    .container-grid#container-3-copy-1 {
+      padding-top: 14.6%;
+    }
+
+    .container-grid.full-height.heading.row-type {
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid.column-type.header-column {
+      bottom: auto;
+      display: block;
+      padding-top: 46.2%;
+      padding-bottom: 24px;
+    }
+
+    .container-grid.button-container.container-fluid {
+      position: static;
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .container-grid#container-3 {
+      margin-bottom: 22px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* Text Elements */
+
+  h2.spotlight-heading {
+    display: block;
+    float: none;
+    margin-right: 0;
+    margin-bottom: 11px;
+    font-size: 4.66vw;
+    line-height: 5.56vw;
+  }
+
+  .container-grid.container-2-1 {
+    position: static;
+    display: block;
+    float: none;
+    width: 100%;
+  }
+
+  .container-grid.full-height.heading.row-type {
+    background-position: left top;
+  }
+
+  .container-grid.row-type {
+    visibility: visible;
+  }
+
+  .container-grid.column-type.header-column {
+    top: 15.3%;
+    right: 10%;
+    display: block;
+    float: left;
+    margin-right: 0;
+    margin-left: 66%;
+    padding: 4rem .08rem 0 0;
+    width: 43%;
+    height: 33%;
+
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+            align-content: center;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+  }
+
+  @supports (display: grid) {
+      /* Text Elements */
+
+    h2#heading-1 {
+      width: 444px;
+      height: 59px;
+      font-size: 52px;
+    }
+
+    h2 span.heading-text-1 {
+      font-size: 37px;
+    }
+
+    h2.heading-1 {
+      width: 555px;
+    }
+
+    h2.spotlight-heading {
+      width: 642px;
+    }
+
+    p.paragraph.spotlight-text {
+      font-size: 18px;
+    }
+
+    .container-grid#container-1 {
+      background-image: url('../socialicons/large-square-persian-shield.jpg');
+    }
+
+    .container-grid.container-2 {
+      max-width: 860px;
+    }
+
+    .container-grid.container-3 {
+      grid-template-areas: 'l m r';
+      grid-template-columns: repeat(3 , 1fr);
+      grid-template-rows: auto;
+      grid-column-gap: 10px;
+    }
+
+    div.responsive-picture.picture-3 {
+      grid-area: r;
+    }
+
+    div.responsive-picture.picture-1 {
+      grid-area: l;
+    }
+
+    .container-grid#container-difference {
+      height: 400px;
+      background-image: url('../Product-images/images-for-web/foliage-difference.jpg');
+      background-attachment: scroll;
+      background-position: left center;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid#container-3-copy-1 {
+      position: static;
+      top: 0;
+      padding: 0 2px 60px 0;
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid.full-height.heading.row-type {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display:    -moz-box;
+      display: -ms-flexbox;
+      display:         flex;
+      min-height: auto;
+      max-height: none;
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid.column-type.header-column {
+      position: relative;
+      top: 35%;
+      right: 0;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display:    -moz-box;
+      display: -ms-flexbox;
+      display:         flex;
+      margin-right: auto;
+      margin-left: auto;
+      padding-right: 24px;
+      padding-left: 24px;
+      height: auto;
+    }
+
+    .container-grid.button-container.container-fluid {
+      margin-bottom: 12px;
+    }
+
+    .container-grid#container-3 {
+      margin-bottom: 22px;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* Text Elements */
+
+  h2.spotlight-heading {
+    font-size: 4.38vw;
+    line-height: 5.43vw;
+  }
+
+  p.paragraph.spotlight-text {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .container-grid.full-height.heading.row-type {
+    background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  }
+
+  .container-grid.column-type.header-column {
+    margin-left: 62.7%;
+  }
+
+  @supports (display: grid) {
+      /* Text Elements */
+
+    h2.spotlight-heading {
+      width: 777px;
+    }
+
+    p.paragraph#paragraph-1 {
+      width: auto;
+    }
+
+    .container-grid.full-height.heading.row-type {
+      height: 450px;
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid.column-type.header-column {
+      top: auto;
+      right: auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display:    -moz-box;
+      display: -ms-flexbox;
+      display:         flex;
+      padding-top: 45.9%;
+      width: 42.7%;
+    }
+
+    .container-grid#container-3-copy-1 {
+      position: static;
+      top: auto;
+      right: auto;
+      margin-right: auto;
+      margin-left: auto;
+      padding-top: 43px;
+      padding-right: 0;
+    }
+
+    .container-grid#container-difference {
+      background-position: left center;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-grid.full-height.heading.row-type {
+    position: static;
+    height: 800px;
+    background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+    background-attachment: scroll;
+    background-position: 0vmax top;
+    background-size: cover;
+  }
+
+  .container-grid.column-type.header-column {
+    top: 24.1%;
+  }
+
+  @supports (display: grid) {
+      /* Text Elements */
+
+    h2.spotlight-heading {
+      width: 777px;
+      font-size: 55px;
+      line-height: 65px;
+    }
+
+    p.paragraph.spotlight-text {
+      font-size: 24px;
+    }
+
+    p.paragraph.paragraph-1 {
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    p.paragraph#paragraph-1 {
+      width: auto;
+    }
+
+    .container-grid#container-difference {
+      min-height: auto;
+      background-position: center center;
+    }
+
+    .container-grid.full-height.heading.row-type {
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid.column-type.header-column {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display:    -moz-box;
+      display: -ms-flexbox;
+      display:         flex;
+      margin-right: auto;
+      margin-left: auto;
+      padding-top: 0;
+      width: 43%;
+      height: auto;
+    }
+
+    .container-grid.container-6 {
+      min-height: 14px;
+    }
+
+    .container-grid#container-3-copy-1 {
+      position: static;
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .container-grid.full-height.heading.row-type {
+    background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  }
+
+  @supports (display: grid) {
+      .container-grid.container-3 {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 1800px;
+    }
+
+    .container-grid.full-height.heading.row-type {
+      min-height: 900px;
+      height: 100vh;
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+  }
+}

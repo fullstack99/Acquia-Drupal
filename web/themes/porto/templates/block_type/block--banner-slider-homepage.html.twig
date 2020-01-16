@@ -1,0 +1,19 @@
+{%
+set classes = [
+'block',
+'block-' ~ configuration.provider|clean_class,
+'block-' ~ plugin_id|clean_class,
+]
+
+%}
+<div{{ attributes.addClass(classes) }}>
+    {{ title_prefix }}
+<section class="explore-section parallax section section-text-light section-parallax section-center section-overlay-opacity section-overlay-opacity-scale-8 mt-none" data-plugin-parallax data-plugin-options='{"speed": 1.5}' data-image-src="{{ content.field_bs_background | render | striptags | trim }}" style="background:url({{ content.field_bs_background | render | striptags | trim }});    background-position: 50% 61.0833px;" >
+	<div class="container">
+		<div class="owl-carousel owl-theme nav-bottom rounded-nav" data-plugin-options='{"items": 1, "loop": false}'>
+			{{content.field_banner_homepage_content}}
+		</div>
+	</div>
+</section>
+    {{ title_suffix }}
+</div>

@@ -1,0 +1,8 @@
+{% for key, item in items %}
+    <div>
+		<h2 class="lastchild">{{ item.content['#field_collection_item'].field_bs_title.value }}</h2>
+		<p class="nth-word">{{ item.content['#field_collection_item'].field_bs_content.value }}</p>
+		<a href="{{ item.content['#field_collection_item'].field_button_link.0.url }}" class="btn btn-default text-uppercase font-weight-semibold custom-text-color-1">{{ item.content['#field_collection_item'].field_bs_button.value }}</a>
+	</div>
+{% endfor %}
+

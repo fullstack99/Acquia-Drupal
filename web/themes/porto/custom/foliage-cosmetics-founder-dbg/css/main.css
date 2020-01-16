@@ -1,0 +1,1118 @@
+/* Text Elements */
+
+h2.spotlight-heading2 {
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'Armata', sans-serif;
+  line-height: 2.5rem;
+}
+
+h2.spotlight-heading {
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'Armata', sans-serif;
+  line-height: 2.5rem;
+}
+
+h5.heading-1 {
+  text-align: center;
+}
+
+p.paragraph.paragraph-1 {
+  margin-top: 27px;
+  margin-right: 10px;
+  margin-left: 13px;
+}
+
+p.paragraph.spotlight-text2 {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+p.paragraph.spotlight-text {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-grid.container-1 {
+  display: grid;
+  margin-right: auto;
+  margin-left: auto;
+
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+div.responsive-picture.picture-1 > picture > img {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+div.responsive-picture.picture-1 {
+  max-width: none;
+  width: 100%;
+  background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+}
+
+.container-grid.full-height {
+  height: 100%;
+}
+
+.container-grid.heading {
+  background-color: #000;
+  background-image: url('http://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  background-attachment: scroll;
+  background-position: left top;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+  background-repeat: no-repeat;
+}
+
+.container-grid.full-height.heading {
+  background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  background-position: center center;
+  background-size: cover;
+}
+
+.container-grid.full-height.heading.row-type {
+  visibility: visible;
+  height: 640px;
+  background-color: transparent;
+  background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  background-attachment: scroll;
+  background-position: center top;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  opacity: 1;
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+
+  background-blend-mode: normal;
+}
+
+.container-grid.row-type {
+  visibility: hidden;
+}
+
+.container-grid.header-column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:    -moz-box;
+  display: -ms-flexbox;
+  display:         flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .4);
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+          align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+}
+
+.container-grid.column-type.header-column {
+  display: grid;
+  float: left;
+  padding-top: 282px;
+  background-color: transparent;
+
+  grid-area: elementArea;
+}
+
+.container-grid.button-container {
+  margin-top: 5%;
+}
+
+@supports (display: grid) {
+  /* Text Elements */
+
+  h2.spotlight-heading2 {
+    line-height: 36px;
+  }
+
+  h2.spotlight-heading {
+    line-height: 36px;
+  }
+
+  h5.heading-1 {
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  h5 span.heading-text-2 {
+    font-weight: 400;
+    font-size: 17px;
+  }
+
+  p.paragraph.paragraph-1 {
+    margin-right: 18px;
+    margin-bottom: 42px;
+    margin-left: 13px;
+    padding-right: 7px;
+    color: #fff;
+  }
+
+  /* Interaction Elements */
+
+  a.link-button.btn {
+    margin-right: auto;
+    margin-left: auto;
+    width: 220px;
+    border-color: rgba(255, 255, 255, .5);
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto', cursive;
+  }
+
+  /* Layout Elements */
+
+  body.body-1 {
+    background-color: #2e3133;
+  }
+
+  .container-grid.container-2 {
+    display: grid;
+    margin: 20px auto;
+    width: 160px;
+    height: 38px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+
+    justify-self: center;
+    align-self: center;
+  }
+
+  div.responsive-picture.picture-1 {
+    width: 100%;
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .container-grid.full-height.heading.row-type {
+    min-height: auto;
+    height: 640px;
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .container-grid#container-commitment {
+    min-height: auto;
+    width: auto;
+    height: 640px;
+    background-image: url('../Product-images/images-for-web/small-persian-shield-leaf.jpg');
+    background-attachment: scroll;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .container-grid.column-type.header-column {
+    top: auto;
+    padding-top: 60%;
+    padding-bottom: 0;
+    height: 640px;
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .container-grid#container-3-copy-2 {
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .container-grid#container-difference {
+    min-height: auto;
+    height: 640px;
+    background-image: url('../Product-images/images-for-web/foliage-difference.jpg');
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .container-grid#container-3-copy-1 {
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  /* Text Elements */
+
+  h5.heading-1 {
+    font-size: 17px;
+  }
+
+  p.paragraph.paragraph-1 {
+    margin-top: 59px;
+    margin-right: 2.6%;
+    margin-left: 2.6%;
+    padding: 10px;
+    width: 92vw;
+    border-width: 1px;
+    border-style: solid;
+    font-weight: 500;
+    font-size: 1.09em;
+    line-height: 28px;
+  }
+
+  div.responsive-picture.picture-1 {
+    width: 100%;
+  }
+
+  .container-grid.full-height.heading.row-type {
+    visibility: visible;
+    height: 640px;
+    background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+    background-size: cover;
+    text-align: center;
+  }
+
+  .container-grid.row-type {
+    visibility: visible;
+  }
+
+  .container-grid.column-type.header-column {
+    display: grid;
+    visibility: visible;
+    padding-top: 22rem;
+    background-color: transparent;
+  }
+
+  @supports (display: grid) {
+      /* Text Elements */
+
+    p.paragraph.paragraph-1 {
+      margin-right: auto;
+      margin-left: auto;
+      padding-right: 13px;
+      padding-left: 13px;
+      width: 85vw;
+      text-align: justify;
+    }
+
+    p.paragraph.spotlight-text2 {
+      margin-right: 18px;
+      margin-left: 18px;
+    }
+
+    p.paragraph.spotlight-text {
+      margin-right: 18px;
+      margin-left: 18px;
+    }
+
+    /* Interaction Elements */
+
+    a.link-button.btn {
+      display: block;
+    }
+
+    .container-grid.full-height.heading.row-type {
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid#container-3-copy-2 {
+      bottom: auto;
+    }
+
+    .container-grid#container-3-copy-1 {
+      margin-bottom: 0;
+      padding-bottom: 60px;
+
+      grid-template-columns: auto;
+      grid-template-rows: repeat(4 , auto);
+    }
+  }
+}
+
+@media screen and (min-width: 540px) {
+  /* Text Elements */
+
+  h2.spotlight-heading2 {
+    margin-top: 74px;
+    line-height: 3rem;
+
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 1auto;
+       -moz-box-flex: 0;
+        -ms-flex: 0 1 1auto;
+            flex: 0 1 1auto;
+  }
+
+  h2.spotlight-heading {
+    margin-top: 74px;
+    line-height: 3rem;
+
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 1auto;
+       -moz-box-flex: 0;
+        -ms-flex: 0 1 1auto;
+            flex: 0 1 1auto;
+  }
+
+  h5.heading-1 {
+    font-weight: 600;
+  }
+
+  p.paragraph.paragraph-1 {
+    font-size: 1.15em;
+  }
+
+  p.paragraph.spotlight-text2 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1;
+       -moz-box-flex: 0;
+        -ms-flex: 0 1;
+            flex: 0 1;
+  }
+
+  p.paragraph.spotlight-text {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1;
+       -moz-box-flex: 0;
+        -ms-flex: 0 1;
+            flex: 0 1;
+  }
+
+  div.responsive-picture.picture-1 {
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .container-grid.full-height.heading.row-type {
+    background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  }
+
+  .container-grid.row-type {
+    visibility: hidden;
+    float: none;
+    clear: none;
+  }
+
+  .container-grid.column-type.header-column {
+    position: relative;
+    display: grid;
+    -ms-flex-pack: distribute;
+    -ms-flex-align: center;
+    margin-bottom: 0;
+    padding-top: 22rem;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    min-width: 0;
+    min-height: auto;
+    height: 100%;
+    -webkit-column-count: auto;
+       -moz-column-count: auto;
+            column-count: auto;
+
+    -webkit-justify-content: space-around;
+            justify-content: space-around;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+       -moz-box-flex: 0;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+    grid-area: auto/ auto / auto / auto;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+            align-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+            align-items: center;
+  }
+
+  @supports (display: grid) {
+      /* Text Elements */
+
+    h2.spotlight-heading2 {
+      margin-bottom: 4px;
+      padding-bottom: 0;
+    }
+
+    h2.spotlight-heading {
+      margin-bottom: 4px;
+      padding-bottom: 0;
+    }
+
+    p.paragraph.paragraph-1 {
+      margin-right: auto;
+      margin-left: auto;
+      width: 80vw;
+      font-weight: 400;
+    }
+
+    .container-grid.full-height.heading.row-type {
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid.column-type.header-column {
+      bottom: auto;
+      display: block;
+      padding-top: 46.2%;
+      padding-bottom: 24px;
+    }
+
+    .container-grid#container-3-copy-2 {
+      position: relative;
+      padding-top: 18.7rem;
+      padding-bottom: 60px;
+      padding-left: 16px;
+
+      grid-template-columns: auto;
+      grid-template-rows: repeat(6 , auto);
+      grid-area: auto/ auto /auto/ auto;
+    }
+
+    .container-grid.button-container.container-fluid {
+      position: static;
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .container-grid#container-3-copy-1 {
+      padding-top: 18.7rem;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* Text Elements */
+
+  h2.spotlight-heading2 {
+    display: block;
+    float: none;
+    margin-right: 0;
+    margin-bottom: 11px;
+    font-size: 4.66vw;
+    line-height: 5.56vw;
+  }
+
+  h2.spotlight-heading {
+    display: block;
+    float: none;
+    margin-right: 0;
+    margin-bottom: 11px;
+    font-size: 4.66vw;
+    line-height: 5.56vw;
+  }
+
+  p.paragraph.paragraph-1 {
+    position: relative;
+    z-index: 2;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+    width: 45vw;
+    background-color: #f2f1f1;
+    font-size: 1.21em;
+
+    grid-area: 3/5/span 4/10;
+    justify-self: auto;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1;
+       -moz-box-flex: 0;
+        -ms-flex: 0 1;
+            flex: 0 1;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+            align-self: auto;
+  }
+
+  div.responsive-picture.picture-1 {
+    -ms-flex-order: 1;
+    overflow: hidden;
+    max-width: none;
+    vertical-align: baseline;
+
+    grid-area: 1/1/span 8/span 7;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+            align-self: flex-start;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+       -moz-box-ordinal-group: 2;
+            order: 1;
+  }
+
+  div.responsive-picture.picture-1 > picture > img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  .container-grid.container-1 {
+    -ms-flex-pack: justify;
+
+    grid-template-areas: none;
+    grid-template-columns: 30px repeat(7 , 1fr) 30px;
+    grid-template-rows: repeat(5 , auto);
+    grid-auto-flow: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+            justify-content: space-between;
+    justify-items: center;
+  }
+
+  .container-grid.full-height.heading.row-type {
+    background-position: left top;
+  }
+
+  .container-grid.row-type {
+    visibility: visible;
+  }
+
+  .container-grid.column-type.header-column {
+    top: 15.3%;
+    right: 10%;
+    display: block;
+    float: left;
+    margin-right: 0;
+    margin-left: 66%;
+    padding: 4rem .08rem 0 0;
+    width: 43%;
+    height: 33%;
+
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+            align-content: center;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+  }
+
+  .container-grid.container-2-1 {
+    position: static;
+    display: block;
+    float: none;
+    width: 100%;
+  }
+
+  @supports (display: grid) {
+      /* Text Elements */
+
+    p.paragraph.paragraph-1 {
+      margin-right: 20px;
+      margin-bottom: 50px;
+      margin-left: 16px;
+      padding-right: 12px;
+      max-width: 333px;
+      background-color: #2e3133;
+
+      grid-area: 3/7/span 4/8;
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 2;
+         -moz-box-flex: 0;
+          -ms-flex: 0 2;
+              flex: 0 2;
+    }
+
+    p.paragraph.spotlight-text2 {
+      font-size: 18px;
+    }
+
+    p.paragraph.spotlight-text {
+      font-size: 18px;
+    }
+
+    .container-grid.container-1 {
+      background-color: #2e3133;
+
+      grid-template-columns: repeat(9 , auto);
+      grid-template-rows: repeat(8 , auto);
+    }
+
+    div.responsive-picture.picture-1 {
+      width: 79vw;
+    }
+
+    .container-grid.full-height.heading.row-type {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display:    -moz-box;
+      display: -ms-flexbox;
+      display:         flex;
+      min-height: auto;
+      max-height: none;
+      background-color: #2e3133;
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid#container-commitment {
+      position: static;
+      max-width: none;
+      width: auto;
+      height: 500px;
+      background-image: url('../Product-images/images-for-web/large-square-persian-shield.jpg');
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid.column-type.header-column {
+      top: 35%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display:    -moz-box;
+      display: -ms-flexbox;
+      display:         flex;
+      margin-right: 20px;
+      margin-left: 65.2%;
+      padding-right: .15rem;
+    }
+
+    .container-grid#container-3-copy-2 {
+      padding-top: 4rem;
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid.button-container.container-fluid {
+      margin-bottom: 12px;
+    }
+
+    .container-grid#container-difference {
+      height: 500px;
+      background-image: url('../Product-images/images-for-web/foliage-difference.jpg');
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid#container-3-copy-1 {
+      padding-top: 4rem;
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid.container-2-1 {
+      background-color: #2e3133;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* Text Elements */
+
+  h2.spotlight-heading2 {
+    font-size: 4.38vw;
+    line-height: 5.43vw;
+  }
+
+  h2.spotlight-heading {
+    font-size: 4.38vw;
+    line-height: 5.43vw;
+  }
+
+  p.paragraph.paragraph-1 {
+    font-size: 1.2em;
+
+    grid-area: 5/5/span 2/9;
+  }
+
+  p.paragraph.spotlight-text2 {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  p.paragraph.spotlight-text {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .container-grid.container-1 {
+    grid-template-rows: repeat(5 , auto) 30px;
+    grid-template-columns: 30px repeat(6 , 1fr) 30px;
+  }
+
+  div.responsive-picture.picture-1 {
+    grid-area: 1/1/6/span 7;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+            align-self: flex-start;
+    justify-self: auto;
+  }
+
+  .container-grid.full-height.heading.row-type {
+    background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  }
+
+  .container-grid.column-type.header-column {
+    margin-left: 62.7%;
+  }
+
+  @supports (display: grid) {
+      /* Text Elements */
+
+    h5.heading-1 {
+      font-size: 17px;
+    }
+
+    h5 span.heading-text-2 {
+      font-size: 19px;
+    }
+
+    p.paragraph.paragraph-1 {
+      max-width: 444px;
+    }
+
+    p.paragraph span.paragraph-text-1 {
+      font-weight: 400;
+    }
+
+    p.paragraph span.paragraph-text-2 {
+      font-weight: 400;
+    }
+
+    /* Layout Elements */
+
+    body.body-1 {
+      background-color: #2e3133;
+    }
+
+    .container-grid.container-2 {
+      width: 174px;
+      height: 44px;
+    }
+
+    .container-grid.full-height.heading.row-type {
+      height: 100vh;
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid.column-type.header-column {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display:    -moz-box;
+      display: -ms-flexbox;
+      display:         flex;
+    }
+
+    .container-grid.container-1 {
+      background-color: #2e3133;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* Text Elements */
+
+  p.paragraph.paragraph-1 {
+    max-width: 555px;
+    font-size: 1.39em;
+
+    grid-area: 4/5/span 3/10;
+  }
+
+  div.responsive-picture.picture-1 {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+
+    -webkit-align-self: baseline;
+    -ms-flex-item-align: baseline;
+            align-self: baseline;
+  }
+
+  .container-grid.container-1 {
+    grid-template-rows: repeat(5 , auto);
+  }
+
+  .container-grid.full-height.heading.row-type {
+    position: static;
+    height: 800px;
+    background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+    background-attachment: scroll;
+    background-position: 0vmax top;
+    background-size: cover;
+  }
+
+  .container-grid.column-type.header-column {
+    top: 24.1%;
+  }
+
+  @supports (display: grid) {
+      /* Text Elements */
+
+    h2.spotlight-heading2 {
+      font-size: 55px;
+      line-height: 65px;
+    }
+
+    h2.spotlight-heading {
+      font-size: 55px;
+      line-height: 65px;
+    }
+
+    h5.heading-1 {
+      color: #fff;
+    }
+
+    p.paragraph.paragraph-1 {
+      max-width: 444px;
+      background-color: #2e3133;
+      color: #fff;
+      font-size: 19px;
+
+      grid-area: 4/5/span 4/8;
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0;
+         -moz-box-flex: 0;
+          -ms-flex: 0 0;
+              flex: 0 0;
+    }
+
+    p.paragraph.spotlight-text2 {
+      font-size: 24px;
+    }
+
+    p.paragraph.spotlight-text {
+      font-size: 24px;
+    }
+
+    /* Layout Elements */
+
+    body.body-1 {
+      background-color: #2e3133;
+    }
+
+    .container-grid.container-1 {
+      max-width: 1200px;
+    }
+
+    .container-grid.full-height.heading.row-type {
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+
+    .container-grid#container-commitment {
+      min-height: auto;
+      background-position: center center;
+    }
+
+    .container-grid.column-type.header-column {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display:    -moz-box;
+      display: -ms-flexbox;
+      display:         flex;
+      padding-top: 35vh;
+      width: 43%;
+      height: 33%;
+    }
+
+    .container-grid#container-3-copy-2 {
+      padding-top: 2rem;
+    }
+
+    .container-grid.container-7 {
+      min-height: 35px;
+    }
+
+    .container-grid#container-difference {
+      min-height: auto;
+      background-position: center center;
+    }
+
+    .container-grid.container-6 {
+      min-height: 14px;
+    }
+
+    .container-grid.container-2 {
+      border-color: #fff;
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  /* Text Elements */
+
+  p.paragraph.paragraph-1 {
+    position: relative;
+    font-size: 1.5em;
+
+    grid-area: 5/5/span 4/9;
+  }
+
+  div.responsive-picture.picture-1 {
+    -ms-flex-order: 0;
+
+    grid-area: 1/1/span 6/span 7;
+    justify-self: auto;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+       -moz-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+       -moz-box-ordinal-group: 1;
+            order: 0;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+            align-self: flex-start;
+  }
+
+  .container-grid.container-1 {
+    max-width: 1920px;
+
+    grid-template-rows: repeat(6 , auto);
+  }
+
+  .container-grid.full-height.heading.row-type {
+    background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  }
+
+  @supports (display: grid) {
+      .container-grid.full-height.heading.row-type {
+      min-height: 900px;
+      height: 100vh;
+      background-image: none;
+      background-attachment: scroll;
+      background-position: left top;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: 0 0;
+      background-repeat: no-repeat;
+
+      background-blend-mode: normal;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{%
+set classes = [
+'block',
+'block-' ~ configuration.provider|clean_class,
+'block-' ~ plugin_id|clean_class,
+]
+
+%}
+<div{{ attributes.addClass(classes) }}>
+    {{ title_prefix }}
+    <div class="container mb-xlg">
+
+        {% if content.body %}
+            {{ content.body }}
+        {% endif %}
+        <div class="owl-carousel owl-theme manual clients-carousel owl-no-narrow">
+           {{ content.field_brands }}
+        </div>
+    </div>
+
+    {{ title_suffix }}
+</div>
